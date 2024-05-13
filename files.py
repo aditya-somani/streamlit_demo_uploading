@@ -24,8 +24,8 @@ if vid is not None:
 
 #This is an "raw String" using which i don't have to modify th epth "\" to "/"
 #As windows and unix based system handle path separators differently
-st.subheader("Using raw string to upload file ")
-st.video(Video_Test.mp4)
+# st.subheader("Using raw string to upload file ")
+# st.video(r"C:\Users\H.P\Desktop\Python\Learning\Libraries\Streamlit\Ref\Video_Test.mp4")
 
 st.subheader("Audio Files")
 audi=st.file_uploader("Upload your audio ",type=["wav","mp3"])
