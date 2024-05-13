@@ -8,8 +8,8 @@ if df is not None:
     if df is not None:
         st.table(df.head())
 
-st.subheader("Dealing with images")
-st.image("img.png")
+# st.subheader("Dealing with images")
+# st.image("img.png")
 
 
 st.subheader("Dealing with images while uploading ")
